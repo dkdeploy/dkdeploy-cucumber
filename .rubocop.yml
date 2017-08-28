@@ -1,0 +1,18 @@
+AllCops:
+  Exclude:
+    - 'tmp/**/*'
+    - 'config/**/*'
+    - 'vendor/**/*'
+  TargetRubyVersion: 2.2
+GlobalVars:
+  AllowedVariables: []
+MethodLength:
+  Max: 25
+LineLength:
+  Max: 200
+SpecialGlobalVars:
+  Enabled: false
+BracesAroundHashParameters:
+  Enabled: false
+CyclomaticComplexity:
+  Max: 10

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>Empty html</title>
+</head>
+<body>
+  <form id="f1" action="form.html" method="GET">
+    <input id="developer" type="text" name="developer" value="Timo"/>
+    <input id="manager" type="text" name="manager" value="Alex"/>
+    <select name="selection">
+      <option value="value1">Value 1</option> 
+      <option value="value2" selected>Value 2</option>
+      <option value="value3">Value 3</option>
+    </select>
+    <input type="checkbox" name="validation" value="validation"/>
+    
+    <input id="radio1" type="radio" name="group" value="radio1"/>
+    <input id="radio2" type="radio" name="group" value="radio2"/>
+
+    <input id="file1" type="file" name="file1" value=""/>
+
+    <input id="blurer" type="text" onblur="this.value='after'" value="before"/> 
+  </form>
+</body>
+</html>

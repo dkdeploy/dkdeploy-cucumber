@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>Empty html</title>
+</head>
+<body>
+  <p id="p1">before</p>
+  <button id="b1" onclick="setTimeout(function(){document.getElementById('p1').textContent = 'after';},3000)">Try it</button>
+  <p id="p2">before</p>
+  <button id="b2" onclick="setTimeout(function(){document.getElementById('p2').textContent = 'after';},5000)">Try it</button>
+</body>
+</html>

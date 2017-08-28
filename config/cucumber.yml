@@ -1,0 +1,4 @@
+---
+default: --profile normal
+normal: --tags ~@should_fail
+negative: --tags @should_fail --wip # Run test that check correct negative outcomes
