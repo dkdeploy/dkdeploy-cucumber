@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.description   = 'dkdeploy Cucumber step definitions'
   spec.summary       = 'Cucumber step definitions for browser tests'
   spec.homepage      = 'https://github.com/dkdeploy/dkdeploy-cucumber'
-  spec.required_ruby_version = '~> 2.2'
+  spec.required_ruby_version = '~> 2.1'
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin\/}) { |f| File.basename(f) }
@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rake'
-  spec.add_development_dependency 'rack', '~> 2.0'
+  spec.add_development_dependency 'rack', '~> 1.6.8'
   spec.add_development_dependency 'rubocop', '~> 0.48.1'
   spec.add_development_dependency 'rspec', '~> 3.6'
   spec.add_development_dependency 'capybara', '~> 2.15.1'
