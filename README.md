@@ -2,8 +2,8 @@
 
 # Dkdeploy::Cucumber
 
-[![Build Status](https://api.travis-ci.org/dkdeploy/dkdeploy-cucumber.svg?branch=develop)](https://travis-ci.org/repositories/dkdeploy/dkdeploy-cucumber)
-[![Gem Version](https://badge.fury.io/rb/dkdeploy-cucumber.svg)](https://badge.fury.io/rb/dkdeploy-cucumber) [![Inline docs](http://inch-ci.org/github/dkdeploy/dkdeploy-cucumber.svg?branch=develop)](http://inch-ci.org/github/dkdeploy/dkdeploy-cucumber)
+[![Build Status](https://travis-ci.org/dkdeploy/dkdeploy-cucumber.svg?branch=master)](https://travis-ci.org/dkdeploy/dkdeploy-cucumber)
+[![Gem Version](https://badge.fury.io/rb/dkdeploy-cucumber.svg)](https://badge.fury.io/rb/dkdeploy-cucumber) [![Inline docs](http://inch-ci.org/github/dkdeploy/dkdeploy-cucumber.svg?branch=master)](http://inch-ci.org/github/dkdeploy/dkdeploy-cucumber)
 
 ## Description
 
@@ -14,7 +14,7 @@ Tests are run with `capybara` and PhantomJS.
 
 Add this line to your application's Gemfile:
 
-    gem 'dkdeploy-cucumber', '~> 4.0'
+    gem 'dkdeploy-cucumber', '~> 4.1'
 
 And then execute:
 
