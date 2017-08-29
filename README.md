@@ -14,7 +14,7 @@ Tests are run with `capybara` and PhantomJS.
 
 Add this line to your application's Gemfile:
 
-    gem 'dkdeploy-cucumber', '~> 4.0'
+    gem 'dkdeploy-cucumber', '~> 4.1'
 
 And then execute:
 
