@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.description   = 'dkdeploy Cucumber step definitions'
   spec.summary       = 'Cucumber step definitions for browser tests'
   spec.homepage      = 'https://github.com/dkdeploy/dkdeploy-cucumber'
-  spec.required_ruby_version = '~> 2.3'
+  spec.required_ruby_version = '~> 2.1'
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin\/}) { |f| File.basename(f) }
