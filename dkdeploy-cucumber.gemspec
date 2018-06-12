@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.description   = 'dkdeploy Cucumber step definitions'
   spec.summary       = 'Cucumber step definitions for browser tests'
   spec.homepage      = 'https://github.com/dkdeploy/dkdeploy-cucumber'
-  spec.required_ruby_version = '~> 2.1'
+  spec.required_ruby_version = '~> 2.5'
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin\/}) { |f| File.basename(f) }
@@ -22,16 +22,16 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rake'
-  spec.add_development_dependency 'puma'
+  spec.add_development_dependency 'puma', '~> 3.11.4'
   spec.add_development_dependency 'rack', '~> 2.0.5'
   spec.add_development_dependency 'rubocop', '~> 0.57.2'
-  spec.add_development_dependency 'rspec', '~> 3.6'
+  spec.add_development_dependency 'rspec', '~> 3.7.0'
   spec.add_development_dependency 'capybara', '~> 3.2.1'
-  spec.add_development_dependency 'phantomjs', '~> 2.1.1.0'
+  spec.add_development_dependency 'phantomjs', '~> 2.1.1'
   spec.add_development_dependency 'poltergeist', '~> 1.18.1'
 
-  spec.add_dependency 'cucumber', '~> 3.1.1'
-  spec.add_dependency 'rspec-expectations', '~> 3.6'
+  spec.add_dependency 'cucumber', '~> 3.1.0'
+  spec.add_dependency 'rspec-expectations', '~> 3.7.0'
   # launchy is used for its save_and_open_page method
   spec.add_dependency 'launchy', '~> 2.4.3'
 end
