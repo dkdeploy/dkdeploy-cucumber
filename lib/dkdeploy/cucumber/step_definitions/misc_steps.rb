@@ -94,7 +94,7 @@ end
 # Mark current test as pending.
 #
 Given(/^PENDING/) do
-  skip
+  pending
 end
 
 # Wait x seconds.
