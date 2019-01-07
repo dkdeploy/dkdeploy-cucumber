@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Fill text into form field
 #
 # @yieldparam field [String] Field name.

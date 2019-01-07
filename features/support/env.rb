@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Capybara configuration (using phantomjs)
 
 require 'capybara/cucumber'
@@ -14,8 +16,9 @@ end
 Capybara.default_driver = :poltergeist
 Capybara.javascript_driver = :poltergeist
 Capybara.default_selector = :css
+Capybara.server = :webrick
 
-Capybara.app = Rack::Directory.new File.expand_path('../../htdocs', __FILE__)
+Capybara.app = Rack::Directory.new File.expand_path('../htdocs', __dir__)
 
 # register Capybara
 World(Capybara)

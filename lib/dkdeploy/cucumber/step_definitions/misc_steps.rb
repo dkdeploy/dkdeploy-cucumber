@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Hover given element.
 #
 # @yieldparam element [String] Css selector for element.
@@ -81,7 +83,7 @@ end
 
 # use only for debugging
 #
-Then(/^I take a screenshot$/) do ||
+Then(/^I take a screenshot$/) do
   page.save_screenshot('./cucumber_debug_screenshot.png', full: true)
 end
 

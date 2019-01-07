@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Cucumber step helper function for with_in
 #
 module WithinHelpers
