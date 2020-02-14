@@ -8,7 +8,7 @@ module Dkdeploy
       MAJOR = 4
       MINOR = 1
       PATCH = 1
-      SUFFIX = '-dev'.freeze
+      SUFFIX = '-dev'
 
       def self.to_s
         "#{MAJOR}.#{MINOR}.#{PATCH}#{SUFFIX}"
