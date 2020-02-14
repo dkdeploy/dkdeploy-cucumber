@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Check json body.
 #
 # @yieldparam expected_json [String] Expected json string.

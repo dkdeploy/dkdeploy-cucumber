@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Open given url.
 #
 # @yieldparam page_name [String] Name of page to open.

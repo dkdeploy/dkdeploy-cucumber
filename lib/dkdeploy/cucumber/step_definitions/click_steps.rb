@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Click button.
 #
 # @yieldparam button [String] Name of button. Relative to selector.

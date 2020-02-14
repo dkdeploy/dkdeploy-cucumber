@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Test for image
 #
 Then(/^(?:|I )should see the image "([^"]*)"(?: within "([^"]*)")?$/) do |image, selector|
