@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Check json body.
 #
 # @yieldparam expected_json [String] Expected json string.
@@ -27,7 +29,7 @@ Then(%r{^(?:|I )(should|should not) see /([^/]*)/(?: within "([^"]*)")?$}) do |s
   regexp = Regexp.new(regexp)
   should_or_not = should_or_not == 'should'
   with_scope(selector) do
-    expect(page).to(should_or_not ? have_xpath('//*', text: regexp) : have_no_xpath('//*', text: regexp))
+    expect(page).to(should_or_not ? have_content(regexp) : have_no_content(regexp))
   end
 end
 

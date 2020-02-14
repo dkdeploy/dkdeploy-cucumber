@@ -1,6 +1,6 @@
-# coding: utf-8
+# frozen_string_literal: true
 
-lib = File.expand_path('../lib', __FILE__)
+lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'dkdeploy/cucumber/version'
 
@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.description   = 'dkdeploy Cucumber step definitions'
   spec.summary       = 'Cucumber step definitions for browser tests'
   spec.homepage      = 'https://github.com/dkdeploy/dkdeploy-cucumber'
-  spec.required_ruby_version = '~> 2.1'
+  spec.required_ruby_version = '~> 2.3'
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin\/}) { |f| File.basename(f) }
@@ -21,15 +21,16 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_development_dependency 'bundler'
+  spec.add_development_dependency 'rack'
   spec.add_development_dependency 'rake'
-  spec.add_development_dependency 'rack', '~> 1.6.8'
-  spec.add_development_dependency 'rubocop', '~> 0.48.1'
-  spec.add_development_dependency 'rspec', '~> 3.6'
-  spec.add_development_dependency 'capybara', '~> 2.15.1'
+  # spec.add_development_dependency 'puma'
+  spec.add_development_dependency 'capybara'
   spec.add_development_dependency 'phantomjs', '~> 2.1.1.0'
   spec.add_development_dependency 'poltergeist', '~> 1.16.0'
+  spec.add_development_dependency 'rspec', '~> 3.6'
+  spec.add_development_dependency 'rubocop', '~> 0.62.0'
 
-  spec.add_dependency 'cucumber', '~> 2.4'
-  spec.add_dependency 'rspec-expectations', '~> 3.6'
+  spec.add_dependency 'cucumber', '~> 3.1'
   spec.add_dependency 'launchy', '~> 2.4.3'
+  spec.add_dependency 'rspec-expectations', '~> 3.6'
 end

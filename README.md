@@ -2,8 +2,8 @@
 
 # Dkdeploy::Cucumber
 
-[![Build Status](https://travis-ci.org/dkdeploy/dkdeploy-cucumber.svg?branch=master)](https://travis-ci.org/dkdeploy/dkdeploy-cucumber)
-[![Gem Version](https://badge.fury.io/rb/dkdeploy-cucumber.svg)](https://badge.fury.io/rb/dkdeploy-cucumber) [![Inline docs](http://inch-ci.org/github/dkdeploy/dkdeploy-cucumber.svg?branch=master)](http://inch-ci.org/github/dkdeploy/dkdeploy-cucumber)
+[![Build Status](https://travis-ci.org/dkdeploy/dkdeploy-cucumber.svg?branch=develop)](https://travis-ci.org/dkdeploy/dkdeploy-cucumber)
+[![Gem Version](https://badge.fury.io/rb/dkdeploy-cucumber.svg)](https://badge.fury.io/rb/dkdeploy-cucumber) [![Inline docs](http://inch-ci.org/github/dkdeploy/dkdeploy-cucumber.svg?branch=develop)](http://inch-ci.org/github/dkdeploy/dkdeploy-cucumber)
 
 ## Description
 
@@ -39,11 +39,6 @@ You can see usage examples in the `features` directory.
 1. Run `bundle exec rubocop`
 2. Run `bundle exec cucumber`
 3. Run `bundle exec cucumber --profile negative`
-
-### Running tests
-
-1. Checking coding styles (`rubocop`)
-2. Running Cucumber tests (`cucumber`)
 
 ## Contributing
 

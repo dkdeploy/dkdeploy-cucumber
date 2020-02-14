@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Cucumber step helper function for selector_for
 #
 module HtmlSelectorsHelpers
