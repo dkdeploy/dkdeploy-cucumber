@@ -5,6 +5,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [4.1.1]- 2020-02-14
+
+- Use correct rspec matcher for search regex step
+
 ## [4.1.0]- 2017-08-29
 ### Added
 

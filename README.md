@@ -40,11 +40,6 @@ You can see usage examples in the `features` directory.
 2. Run `bundle exec cucumber`
 3. Run `bundle exec cucumber --profile negative`
 
-### Running tests
-
-1. Checking coding styles (`rubocop`)
-2. Running Cucumber tests (`cucumber`)
-
 ## Contributing
 
 1. Install [git flow](https://github.com/nvie/gitflow)
